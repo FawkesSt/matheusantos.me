@@ -17,8 +17,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 .nav-menu{
     display: flex;
     justify-content: space-between;
@@ -36,6 +34,7 @@ body{
 
 .nav-menu a:hover{
     color: var(--blue);
+    font-weight: lighter;
     transition: 0.5s;
 }
 
@@ -94,7 +93,6 @@ body{
     background-color: var(--white);
 }
 
-
 /* Main section text*/
 
 .main-section {
@@ -130,7 +128,6 @@ body{
     
 }
 
-
 .name-text{
     color: var(--lightGreen);
 }
@@ -156,7 +153,6 @@ body{
     margin: 0;
     line-height: 2rem;
 }
-
 
 #profile {
 	width: 32rem;
@@ -217,7 +213,6 @@ body{
         font-weight: lighter;
         font-size: 3rem;
     }
-
   
   }
 
