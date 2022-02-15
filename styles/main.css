@@ -203,6 +203,9 @@ body{
     }
     .socials a {
         padding: 0.5rem 1rem;
+        position: relative;
+        animation: slideTopMobile 1s both ;
+        animation-timing-function: cubic-bezier(0, 0.01, 0.13, 1.45);
     }
 
     .main-section {

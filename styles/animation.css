@@ -8,6 +8,17 @@
     }
 }
 
+@keyframes  slideTopMobile{
+    from {
+      top: 100px;  
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+
 .slide-right{
     animation: slideRight 1s both ;
     animation-timing-function: cubic-bezier(0, 0.01, 0.13, 1.45);
@@ -25,3 +36,4 @@
 .delay3{
     animation-delay: 0.5s ;
 }
+
