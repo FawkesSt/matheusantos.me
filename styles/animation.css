@@ -1,0 +1,27 @@
+@keyframes  slideRight{
+    from {
+      left: 50px;  
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+.slide-right{
+    animation: slideRight 1s both ;
+    animation-timing-function: cubic-bezier(0, 0.01, 0.13, 1.45);
+
+}
+
+.delay{
+    animation-delay: 0.1s ;
+}
+
+.delay2{
+    animation-delay: 0.4s ;
+}
+
+.delay3{
+    animation-delay: 0.5s ;
+}
