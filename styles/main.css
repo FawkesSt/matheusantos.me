@@ -14,13 +14,9 @@ body {
   background-color: var(--dark);
   font-family: 'Rubik', sans-serif;
   height: 100vh;
-}
-
-
-.main{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .main h1{
